@@ -32,13 +32,6 @@
 
 ---
 
-## 📸 Preview
-
-![Anime Lens Home](/mnt/data/442530fe-d455-4f78-850f-9df922f0753a.png)
-
-![Anime Lens Results](/mnt/data/861c01a9-2547-4380-b3d4-b56fd317c680.png)
-
----
 
 ## 🧭 How it works — architecture (brief)
 
