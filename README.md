@@ -179,6 +179,7 @@ MIT © Anime Lens contributors
 ---
 
 **Developer:** M KEERTHI VARDHAN
+
 **GitHub:** [https://github.com/keerthivardhanm](https://github.com/keerthivardhanm)
 
 **Portfolio:** [https://keerthivardhanmportfolio.vercel.app](https://keerthivardhanmportfolio.vercel.app)
