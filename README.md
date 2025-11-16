@@ -76,22 +76,6 @@ VITE_EMBEDDING_SOURCE=local|openai      # default: local
 
 ## 📦 Example snippets (copy-paste ready)
 
-### 1) Minimal trace.moe wrapper (fetch)
-
-```js
-// src/api/tracemoe.js
-export async function searchImage(imageBase64, apiKey) {
-  const res = await fetch(`https://api.trace.moe/search`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
-    body: JSON.stringify({ image: imageBase64 })
-  });
-  if (!res.ok) throw new Error('trace.moe error');
-  const data = await res.json();
-  // normalize: pick top result
-  return data.result?.[0] ?? null;
-}
-```
 
 ### 2) Save scan to IndexedDB via localForage
 
@@ -196,5 +180,6 @@ MIT © Anime Lens contributors
 
 **Developer:** M KEERTHI VARDHAN
 **GitHub:** [https://github.com/keerthivardhanm](https://github.com/keerthivardhanm)
+
 **Portfolio:** [https://keerthivardhanmportfolio.vercel.app](https://keerthivardhanmportfolio.vercel.app)
 
